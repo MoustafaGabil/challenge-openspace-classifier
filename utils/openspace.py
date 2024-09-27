@@ -16,8 +16,14 @@ def organize(self, names):
            j.append(Table.assign_seat())
 
 def display(self):
+    for i in self.tables:
+                print(f"Table {i+1}:")
+                j=0 
+                for j in self.tables[k]:
+                    print(f"  Seat {j+1}: {seat()}")
+            
+                k = k+1
 
-    
 
 
                 
